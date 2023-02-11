@@ -6,34 +6,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Form</title>
 </head>
-<body>
-<div></div>
-<h3>
-  <ul>
-    <li><a href="/index.html">index</a></li>
-    <li><a href="/HTL/catalog.html">catalog</a></li>
-    <li><a href="/HTL/document.html">document</a></li>
-    <li><a href="/HTL/file.html">file</a></li>
-    <li><a href="/HTL/information.html">information</a></li>
-    <li><a href="/HTL/table.html">table</a></li>
-    <li><a href="/HTL/table1.html">table1</a></li>
-  </ul>
-</h3><hr>
 
-  <form action="">
-    <input type="text" value=""><br>
-    <input type="password" value=""><br>
-    <input type="radio" value=""><br>
-    <input type="checkbox">
-    <input type="checkbox"><br>
-    <input type="button"><br>
-    <input type="submit"><br>
-
+<div>
+  <h3>
+    <ul>
+        <li><a href="/index.html">index</a></li>
+        <li><a href="/HTL/catalog.html">Catalog</a></li>
+        <li><a href="document.html">document</a></li>
+        <li><a href= "/HTL/file.html">file</a></li>
+        <li><a href="information.html">information</a></li>
+        <li><a href="/HTL/table.html">Table</a></li>
+        <li><a href="/HTL/table1.html">Table1</a></li>
+        </ul><hr>
+        
+      <img src="/img/main/catalog.png" alt="catalog.png"><br><hr>
     
-    <button>click my</button>
+  </h3>
+</div>
 
+
+<body>
+<h2>Регистрация</h2>
+  <hr>
+  <form action="">
+    <div>
+      <label for="name">Имя</label>
+      <input type="name">
+    </div>
+  <div>
+    <label for="surname">Фамилия</label>
+    <input type="surname">
+  </div>
+  <hr>
+  <div>
+    <p>Выберите дату рождения:</p>
+    <input type="date">
+  </div>
+  <hr>
+  <div>
+    <label for="country">Страна</label>
+    <select name="country">
+      <option>Выберите страну проживания</option>
+      <option value="Россия">Россия</option>
+      <option value="Украина">Украина</option>
+      <option value="Казахстан">Казахстан</option>
+      <option value="Белорусь">Белорусь</option>
+      <option value="Молдова">Молдова</option>
+    </select>
+  </div>
+  <hr>
+  <div>
+    <input type="email">
+    <button>email</button>
+  </div>
+  <div>
+    <input type="password">
+    <button>Пароль</button>
+  </div>
+  <div>
+    <input type="password">
+    <button>Павторите пароль</button>
+  </div>
+  <hr>
+  <div>
+    <input type="checkbox">
+    <button>Я принимаю лицензионное соглашение</button>
+  </div>
+  <hr>
+  <div>
+    <button type="submit">Зарегистрироваться</button>
+    
+  </div>
   </form>
- 
-  
 </body>
 </html>
