@@ -1,0 +1,20 @@
+body{
+  background-color: cadetblue;
+}
+
+.svetofor {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#red{
+  background-color: red;
+}
+
+#yello{
+background-color: yellow;
+}
+
+#green{
+  background-color: green;
+}
