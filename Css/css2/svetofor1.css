@@ -1,5 +1,6 @@
 body{
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  background-image: url(/img/main/Fluture.jpg);
 }
 
 .svetofor {
@@ -11,6 +12,7 @@ body{
 #red{
   background-color: red;
   margin-left: 50px;
+  
   }
 
 #yello{

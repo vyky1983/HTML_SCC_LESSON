@@ -1,0 +1,17 @@
+p{
+  font-family: serif;
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center; 
+  text-transform: capitalize ;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
