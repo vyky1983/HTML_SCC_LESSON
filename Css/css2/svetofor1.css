@@ -5,16 +5,20 @@ body{
 .svetofor {
   width: 200px;
   height: 200px;
+  border: 2px black solid;
   border-radius: 50%;
 }
 #red{
   background-color: red;
-}
+  margin-left: 50px;
+  }
 
 #yello{
 background-color: yellow;
+margin-left: 50px;
 }
 
 #green{
   background-color: green;
+  margin-left: 50px;
 }
