@@ -1,21 +1,23 @@
-.conteiner {
-  background-color: aqua;
+body{
+  background-color: aquamarine;
 }
-.svetofor {
-
-}
-#green{
-  border-radius: 150px;
-  background-color: green;
-
+.svetofor{
+  width: 150px;
+  height: 150px;
+  border: 2px black solid;
+  border-radius: 50%;
 }
 #red{
-  border-radius: 150px;
-  background-color: red;
-
+background-color: red;
+margin-left: 50px;
 }
-#yellow{
-  border-radius: 150px;
-  background-color: yellow;
 
+#yellow{
+background-color: yellow;
+margin-left: 50px;
+}
+
+#green{
+background-color: green;
+margin-left: 50px;
 }
