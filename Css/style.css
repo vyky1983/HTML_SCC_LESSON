@@ -23,12 +23,18 @@
 .logo {
   background-image: url(/img/main/Pingvin.png);
   background-repeat: no-repeat;
+  height: 100pc;
+  
 }
 .border{
-  border: 2px gainsboro solid;
+  border: 2px gainsboro ;
 }
 body{
   background-image: url(/img/main/Fluture.jpg);
   background-repeat: no-repeat;
 }
-
+p{
+  border: 2px blue  dashed;
+  
+  
+}
