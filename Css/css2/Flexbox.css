@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+
+div.parent{
+  flex-direction: column;
+  font-size: x-large;
+}
+
+.parent div:nth-child(5){
+  color: brown;
+  font-style: italic;
+  font-size: xx-large;
+  order: 1;
+ 
+}
