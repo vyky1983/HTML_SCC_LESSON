@@ -1,0 +1,16 @@
+*{
+  box-shadow: border;
+}
+
+.first{
+  color: #0000FF;
+  font-size: larger;
+}
+
+div::before{
+  content: "\261D";
+}
+
+div::after{
+  content: "\26C4";
+}
